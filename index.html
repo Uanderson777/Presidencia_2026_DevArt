@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidência 2026 | Projeto DevArt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <div class="logo">
+            ELEIÇÕES <span>2026</span>
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#candidatos">Candidatos</a>
+            <a href="#pesquisas">Pesquisas</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <div class="controles-midia" aria-label="Controles de mídia">
+        <audio id="musicaFundo" loop preload="none">
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        </audio>
+        <button id="btnMusica" type="button" aria-pressed="false">[▶] Música de fundo</button>
+        <button id="btnFala" type="button">[🔊] Áudio/Fala</button>
+        <button id="btnPausar" type="button">[⏸] Pausar</button>
+        <span id="statusMidia" role="status" aria-live="polite">Mídia pausada</span>
+    </div>
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-texto">
+                <p class="categoria">PROJETO DEVART</p>
+
+                <h1>
+                    ELEIÇÕES<br>
+                    <span>2026</span>
+                </h1>
+
+                <p>
+                    Um painel visual para organizar informações sobre a eleição
+                    presidencial brasileira.
+                </p>
+
+                <button id="btnExplorar">
+                    EXPLORAR PROJETO
+                </button>
+            </div>
+
+            <div class="hero-card">
+                <div class="numero">2026</div>
+                <div class="texto-card">
+                    PRESIDÊNCIA<br>
+                    DO BRASIL
+                </div>
+            </div>
+
+        </section>
+
+        <section id="candidatos" class="secao">
+
+            <div class="titulo-secao">
+                <span>01</span>
+                <h2>CANDIDATOS</h2>
+            </div>
+
+            <div class="cards" id="lista-candidatos" aria-live="polite"></div>
+            <p class="aviso-dados">
+                Informações sujeitas a confirmação no calendário eleitoral oficial do TSE.
+            </p>
+
+        </section>
+
+        <section id="pesquisas" class="secao pesquisas">
+
+            <div class="titulo-secao">
+                <span>02</span>
+                <h2>PESQUISAS</h2>
+            </div>
+
+            <div class="pesquisa-box">
+                <h3>INTENÇÃO DE VOTO</h3>
+
+                <div class="barra">
+                    <div class="barra-preenchida"></div>
+                </div>
+
+                <p>Dados demonstrativos do projeto. Consulte o TSE para informações oficiais.</p>
+            </div>
+
+        </section>
+
+        <section id="sobre" class="secao sobre">
+
+            <div class="titulo-secao">
+                <span>03</span>
+                <h2>SOBRE O PROJETO</h2>
+            </div>
+
+            <p>
+                Este projeto apresenta uma experiência visual inspirada em
+                interfaces digitais modernas, utilizando HTML, CSS e JavaScript.
+                As informações eleitorais oficiais devem ser consultadas em fontes institucionais.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>PRESIDÊNCIA 2026 — PROJETO DEVART</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>s
